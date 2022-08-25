@@ -3,7 +3,7 @@
 //or copy the codes/script,
 //pls give credit
 //no credit? i will take action immediately
-//© 2022 Xeon Bot Inc. Dark nero Bot MD
+//© 2022 Xeon Bot Inc. ❰❰⦁ 𝛫𝛯𝘕𝘡𝘖 ⦁❱❱ Bot MD
 //Thank you to Lord Buddha, Family and Myself
 //════════════════════════════//
 //recode kar ke youtube pe upload kar rhe hai ya
