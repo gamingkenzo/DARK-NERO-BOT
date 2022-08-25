@@ -3,10 +3,10 @@
 //or copy the codes/script,
 //pls give credit
 //no credit? i will take action immediately
-//© 2022 kavee Bot Inc. Dark nero Bot MD
+//© 2022 ❰❰⦁ 𝛫𝛯𝘕𝘡𝘖 ⦁❱❱ Inc. Dark nero Bot MD
 //Thank you to Lord Buddha, Family and Myself
 //════════════════════════════//
-// my owenr kaveesha
+// my owenr ❰❰⦁ 𝛫𝛯𝘕𝘡𝘖 ⦁❱❱
 //════════════════════════════//
 //If you recode and uploading on your channel
 //or copy pasting the codes in ur script, 
@@ -163,7 +163,7 @@ XeonLft = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeUR
 │「 𝗛𝗶 👋 」
 └┬❖ 「 @${xeonName.split("@")[0]}  」
    │✑  𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 
-   │✑  𝗠𝗬 𝗢𝗪𝗡𝗘𝗥 ( 𝗞𝗔𝗩𝗘𝗘𝗦𝗛𝗔 )
+   │✑  𝗠𝗬 𝗢𝗪𝗡𝗘𝗥 ( ❰❰⦁ 𝛫𝛯𝘕𝘡𝘖 ⦁❱❱ )
    │✑ ${metadata.subject}
    │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
    │✑ ${xmembers}th
@@ -208,7 +208,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
 │「 𝗚𝗼𝗼𝗱𝗯𝘆𝗲 👋 」
 └┬❖ 「 @${xeonName.split("@")[0]}  」
    │✑  𝗟𝗲𝗳𝘁 
-   │✑ 𝗠𝗬 𝗢𝗪𝗡𝗘𝗥 (𝗞𝗔𝗩𝗘𝗘𝗦𝗛𝗔)
+   │✑ 𝗠𝗬 𝗢𝗪𝗡𝗘𝗥 (❰❰⦁ 𝛫𝛯𝘕𝘡𝘖 ⦁❱❱)
    │✑  ${metadata.subject}
    │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
    │✑ ${xeonmembers}th
