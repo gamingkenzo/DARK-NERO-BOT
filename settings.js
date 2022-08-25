@@ -41,7 +41,7 @@ global.autoreadpmngc = false //auto reading in gc and pm (true to on, false to o
 global.autoReadGc = false //auto reading in gc (true to on, false to off)
 global.autoRecord = false //auto recording (true to on, false to off)
 global.available = true //auto available (true to on, false to off)
-
+global.welcomeandgoodbye = 'false' 
 //semt menu variants
 global.vidmenu = fs.readFileSync("./XeonMedia/theme/Cheems-bot.mp4") //gif and video menu
 
@@ -94,7 +94,7 @@ global.nttoxic = []
 global.ntnsfw = []
 global.ntvirtex = []
 global.rkyt = []
-global.wlcm = []
+global.wlcm = [off]
 global.gcrevoke = []
 global.autorep = []
 global.ntilink = []
