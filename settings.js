@@ -1,82 +1,128 @@
-//SOME ENCRYPTED FILES
-//THANKS FOR CHOOSING KENZOMOD
+//════════════════════════════// 
+//If you want to recode, reupload
+//or copy the codes/script,
+//pls give credit
+//no credit? i will take action immediately
+//© 2022 Xeon Bot Inc. ❰❰⦁ 𝛫𝛯𝘕𝘡𝘖 ⦁❱❱ Bot MD
+//Thank you to Lord Buddha, Family and Myself
+//════════════════════════════//
+//recode kar ke youtube pe upload kar rhe hai ya
+//codes copy kar ke apne script me dal rhe
+//hai to, description me xeon ka yt channel
+// ka link paste kr dena as a cradit or github 
+//repo me bhi tag kardena baki jo
+//bhi karna hai apki marzi, thank you!🦄
+//════════════════════════════//
+//If you recode and uploading on your channel
+//or copy pasting the codes in ur script, 
+//i give permission to do as long as you
+//put Xeons youtube channel link in the video
+//description and tag me on githuh repo, 
+//thank you🦄
+//════════════════════════════//
 
 const fs = require('fs')
 const chalk = require('chalk')
 
-// Website Api
+//Api Website\\
 global.APIs = {
-	zenz: 'https://zenzapi.xyz',
-	dapa: 'https://dapuhy.xyz'
+	zenz: 'https://zenzapis.xyz',
 }
 
-// Apikey Website Api
+//Api Key\\
 global.APIKeys = {
-	'https://zenzapi.xyz': '7A012A0F7751',
-	'https://dapuhy.xyz': 'piceg'
+	'https://zenzapis.xyz': 'your key',
 }
 
-//settings
-global.welcomeandgoodbye = 'false' //welcome එක off කරන්න ඕනෙ නම් false දාන්න.
-global.callblock = 'false' //call block on කරන්න ඕනෙ නම් false කියල තියෙන එක මකල true කියල දාන්න.
 
-//Owner React
-global.OWNER_REACT = 'false' //මෙතනට emoji එකක දාන්න.
-global.REACT_NUMBER = '9463158' //මෙතන number එක.
+//aumto functioner
+global.autoTyping = false //auto tying in gc (true to on, false to off)
+global.autoreadpmngc = false //auto reading in gc and pm (true to on, false to off)
+global.autoReadGc = false //auto reading in gc (true to on, false to off)
+global.autoRecord = false //auto recording (true to on, false to off)
+global.available = true //auto available (true to on, false to off) 
+//semt menu variants
+global.vidmenu = fs.readFileSync("./XeonMedia/theme/Cheems-bot.mp4") //gif and video menu
 
-// Other
-global.owner = ['94763867158',''] //මෙතන number එක.
-global.premium = ['94763867158','94763867158'] //මෙතන number එක.
-global.botname = '❰❰⦁ 𝛫𝛯𝘕𝘡𝘖 ⦁❱❱' //මෙතන නම.
-global.ownername = '❰❰⦁ 𝛫𝛯𝘕𝘡𝘖 ⦁❱❱' //මෙතන නම.
-global.ownername = '❰❰⦁ 𝛫𝛯𝘕𝘡𝘖 ⦁❱❱' //මෙතන නම.
-global.group1 = 'https://chat.whatsapp.com/EgkMqWu1Kq475RhZkXwUTV' //මෙතන grouplink එක.
-global.group2 = 'https://chat.whatsapp.com/EgkMqWu1Kq475RhZkXwUTV' //මෙතන grouplink එක.
-global.packname = '❰❰⦁ 𝛫𝛯𝘕𝘡𝘖 ⦁❱❱' //මෙතන නම.
-global.cap = '*BY ❰❰⦁ 𝛫𝛯𝘕𝘡𝘖 ⦁❱❱*' //මෙතන නම.
-global.img = 'https://i.ibb.co/VTxVmF6/20220821-153441.jpg .jpg' //මෙතන බොට්ගෙ photo එකට ඕන derect link එකක්.
-global.ytchannel = 'https://youtube.com/channel/UCxqpAzaAecDfYOPywxUJoyw' //මෙතන කැමති ලින්ක් එකක්.
-global.monayawal = '100000' //මෙතන මාරු කරන්න එපා.
-global.darahawal = '100' //මෙතන මාරු කරන්න එපා.
-global.besiAwal = '15' //මෙතන මාරු කරන්න එපා.
-global.goldAwal = '10' //මෙතන මාරු කරන්න එපා.
-global.emeraldAwal = '5' //මෙතන මාරු කරන්න එපා.
-global.umpanAwal = '5' //මෙතන මාරු කරන්න එපා.
-global.potionAwal = '1' //මෙතන මාරු කරන්න එපා.
-global.dripstyping = false //මෙතන මාරු කරන්න එපා.
-global.dripsreadgroup = false //මෙතන මාරු කරන්න එපා. 
-global.dripsreadall = false //මෙතන මාරු කරන්න එපා.
-global.dripsrecord = false //මෙතන මාරු කරන්න එපා.
-global.available = false //මෙතන මාරු කරන්න එපා.
-global.unavailable = true //මෙතන මාරු කරන්න එපා.
-global.limittot = 100, //මෙතන මාරු කරන්න එපා.
-global.f1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation' //මෙතන මාරු කරන්න එපා.
-global.f2 = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' //මෙතන මාරු කරන්න එපා.
-global.f3 = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' //මෙතන මාරු කරන්න එපා.
-global.f4 = 'application/zip' //මෙතන මාරු කරන්න එපා.
-global.f5 = 'application/pdf' //මෙතන මාරු කරන්න එපා.
-global.f6 = 'application/vnd.android.package-archive' //මෙතන මාරු කරන්න එපා.
-global.author = '❰❰⦁ 𝛫𝛯𝘕𝘡𝘖 ⦁❱❱ BOT INC' //මෙතන නම.
-global.flaming = 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text=' //මෙතන මාරු කරන්න එපා.
-global.sessionName = 'session' //මෙතන මාරු කරන්න එපා.
-global.prefa = ['','!','.','🐦','🐤','🗿'] //මෙතන මාරු කරන්න එපා.
-global.sp = '⭔' //මෙතන emoji එකක්.
+//documents variants
+global.doc1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
+global.doc2 = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+global.doc3 = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+global.doc4 = 'application/zip'
+global.doc5 = 'application/pdf'
+global.doc6 = 'application/vnd.android.package-archive'
+
+//owmner v card
+global.vcardowner = ['94763867158'] //ur owner number
+global.ownername = "❰❰⦁ 𝛫𝛯𝘕𝘡𝘖 ⦁❱❱" //ur owner name
+global.ytname = "YT: KENZO" //ur yt chanel name
+global.socialm = "GitHub: Nero" //ur github or insta name
+global.location = "Srilanka, matale, ukuwela" //ur location
+
+//bot bomdy 
+global.owner = ['763867158']
+global.ownertag = '763867158' //ur tag number
+global.botname = '✫ ✫ ✫❰❰⦁ 𝛫𝛯𝘕𝘡𝘖 ⦁❱❱✫ ✫ ✫' //ur bot name
+global.linkz = "https://github.com/Kaveeshasithum/DARK-NERO-BOT.git" //your theme url which will be displayed on whatsapp
+global.websitex = "https://github.com/Kaveeshasithum/DARK-NERO-BOT.git" //ur website to be displayed
+global.botscript = 'https://github.com/Kaveeshasithum/DARK-NERO-BOT.git' //script link
+global.reactmoji = "😈" //ur menu react emoji
+global.themeemoji = "🎸" //ur theme emoji
+global.packname = "❰❰⦁ 𝛫𝛯𝘕𝘡𝘖 ⦁❱❱\n\n\n\n\n\n\n\n\n\n\n🦄🦄🦄 " //ur sticker watermark packname
+global.author = "❰❰⦁ 𝛫𝛯𝘕𝘡𝘖 ⦁❱❱" //ur sticker watermark author
+
+//Bot theme media
+global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
+global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur logo pic
+global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
+global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
+
+//damtabase
+global.premium = ['763867158'] //ur premium numbers
+global.ntilinkytvid = []
+global.ntilinkytch = []
+global.ntilinkig = []
+global.ntilinkfb = []
+global.ntilinktg = []
+global.ntilinktt = []
+global.ntilinktwt = []
+global.ntilinkall = []
+global.nticall = []
+global.ntwame = []
+global.nttoxic = []
+global.ntnsfw = []
+global.ntvirtex = []
+global.rkyt = []
+global.wlcm = [false]
+global.gcrevoke = []
+global.autorep = []
+global.ntilink = []
+
+//omther
+global.sessionName = 'session'
+global.antitags = true
+global.prefa = ['','!','.','🐦','🐤','🗿']
+global.sp = '⭔'
 global.mess = {
-    success: '*හරි*',
-        ban: '*Sorry, looks like u got banned😔😔 type .owner To request unban okay*',
-    horny: '*nsfw is disabled please ask owner to enable it*',
-    admin: '*this cmd is for admin only , l can feel you but sorry okay*',
-    botAdmin: '*with due respect can you please give bot adminship*',
-    owner: '*this cmd is for bot owner only , l can feel you but sorry okay*',
-    group: '*this feature is only for groups okay*',
-    private: '*this feature can only used in dm okay*',
-    bot: '*Special Features for User Bot Number okay*',
-    wait: '*ටිකක් ඉන්න ⏳*',
-    endLimit: '*Brothers Daily Limit Has Expired, Type .buy limit amount limit to buy limit, Note: Limit will be reset every 12 hours*',
+    success: 'Done ✓',
+    admin: 'This Feature Is Only For Admin! 🇱🇰',
+    botAdmin: 'Bot Must Be Admin First! 🇱🇰',
+    owner: 'This Feature Is Only For Owner! 🇱🇰',
+    group: 'Feature Used Only For Groups! 🇱🇰',
+    private: 'Features Used Only For Private Chat! 🇱🇰',
+    bot: 'This Feature Is Only For Bot 🇱🇰',
+    wait: 'In wait 🇱🇰',
+    linkm: 'Where is the link? 🇱🇰',
+    error: 'Error!!',
+    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
+    ban: 'You have been banned by the owner, if you want to be unbanned, chat owner.',
+    nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
+    banChat: 'The bot was banned in this group, please contact the owner to unban'
 }
-global.limitawal = {
+    global.limitawal = {
     premium: "Infinity",
-    free: 200
+    free: 12,
+    monayawal: 1000
 }
    global.rpg = {
    darahawal: 100,
@@ -86,23 +132,11 @@ global.limitawal = {
    umpanawal: 5,
    potionawal: 1
 }
-global.thumb = fs.readFileSync('./lib/20220602_094206.png')  
-global.bc = fs.readFileSync('./lib/20220602_094206.png')
-global.visoka = { url: 'https://i.imgur.com/LbmTdhf.mp4' }
-global.vid = { url: 'https://i.imgur.com/LbmTdhf.mp4' }
-
-//—————「 Set Random Image Menu 」—————//
-
+global.thumb = fs.readFileSync('./XeonMedia/theme/cheemspic.jpg')
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-global.mehk = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text='
-global.awog = 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text='
-global.mohai = 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&text='
-global.mhehe = 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text='
-
-
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)
